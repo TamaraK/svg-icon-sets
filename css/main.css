@@ -1,0 +1,47 @@
+html {
+  font-family: Overpass, sans-serif;
+}
+
+body {
+  background-image: linear-gradient(to bottom, #ff9500, #ff5e3a);
+}
+
+main {
+  color: #fff;
+}
+
+section {
+  border-bottom: 3px solid rgba(255, 255, 255, 1);
+}
+
+section:last-child {
+  border-color: transparent;
+}
+
+.btn {
+  color: #fff;
+  border: 3px solid rgba(255, 255, 255, 1);
+  background-color: #ff5e3a;
+}
+
+.btn:hover {
+  color: #ff5e3a;
+  background-color: #fff;
+  border: 3px solid #fff;
+}
+
+@media only screen and (min-width: 60em) {
+
+  section {
+    border-bottom: none;
+  }
+
+  section:nth-child(3) {
+    border-right: 3px solid rgba(255, 255, 255, 1);
+  }
+
+  .button a {
+    padding: 20px;
+  }
+
+}
